@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.21)  22 APR 2015 10:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.21)  22 APR 2015 10:12
 entering extended mode
-**C:/Users/User/Documents/resumeFrance(latex).tex
-(C:/Users/User/Documents/resumeFrance(latex).tex
+**C:/Users/User/Documents/Latex(Fance)/resumeFrance(latex).tex
+(C:/Users/User/Documents/Latex(Fance)/resumeFrance(latex).tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -125,7 +125,7 @@ Package caption Info: float package is loaded.
 LaTeX Warning: Unused global option(s):
     [a4].
 
-(C:\Users\User\Documents\resumeFrance(latex).aux)
+(C:\Users\User\Documents\Latex(Fance)\resumeFrance(latex).aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
@@ -235,21 +235,21 @@ Package pdftex.def Info: C:/Users/User/Desktop/Capture4.jpg used on input line
 (pdftex.def)             Requested size: 171.19087pt x 105.24399pt.
  [2 <C:/Users/User/Desktop/Capture1.jpg> <C:/Users/User/Desktop/Capture2.jpg> <
 C:/Users/User/Desktop/Capture3.jpg> <C:/Users/User/Desktop/Capture4.jpg>] [3]
-(C:\Users\User\Documents\resumeFrance(latex).aux) ) 
+(C:\Users\User\Documents\Latex(Fance)\resumeFrance(latex).aux) ) 
 Here is how much of TeX's memory you used:
  2803 strings out of 493921
- 43445 string characters out of 3147285
+ 43536 string characters out of 3147285
  106193 words of memory out of 3000000
  6105 multiletter control sequences out of 15000+200000
  8801 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,9n,40p,505b,487s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb>
-Output written on resumeFrance(latex).pdf (3 pages, 149332 bytes).
+ 42i,9n,40p,518b,487s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr17.pfb>
+Output written on resumeFrance(latex).pdf (3 pages, 149326 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
