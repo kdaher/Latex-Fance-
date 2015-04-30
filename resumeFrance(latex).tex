@@ -1,41 +1,65 @@
 \documentclass[12pt,a4]{article}
-
+\usepackage{algorithm}
+\usepackage{algorithmic}
 \usepackage[margin=1in,left=1.5in]{geometry}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{subcaption}
+
 \begin{document}
 \title{Resume}
 \author{Jean-Francois COUCHOT, Khaled DAHER}
 \maketitle
 
 \section{Networks generation}
-
-\hspace{0.6cm}In this section, and at first, we created a tool that generates WVSN networks of 10 nodes each, randomly located in a square area of 50m x 50m. Node 10 is the Sink, the others are video sensors and all nodes can send to the Sink. Each node has a transmission range of 30 meters, so in our tool we are  seeking to maintain these conditions so that the network is connected and the nodes that can communicate are distant less than 30 meters. 
+\subsection{Description}
+\hspace{0.6cm}In this section, and at first, we created a tool that generates WVSN networks of $n$ nodes each, randomly located in a square area of 50m x 50m.The node number $n$ is the Sink, the others are video sensors and all nodes can send to the Sink. Each node has a transmission range of 30 meters, so in our tool we are  seeking to maintain these conditions so that the network is connected and the nodes that can communicate are distant less than 30 meters.
+\subsection{Networks generator algorithm}
+\begin{algorithm}
+\begin{algorithmic}
+\STATE Fill the link matrix $a_il$ by zeros
+\STATE  Graph\_connected = false
+\WHILE{(Graph\_connected = false)}
+\STATE Generation of random coordinates of each node between 0 and 50 meters
+\STATE Calculate the distance between the nodes
+\STATE Test the distance between the nodes
+   \IF{(distance  $>$ 30 metres)}
+	\STATE There is no link between these nodes
+   \ENDIF
+\STATE Test if the graph is connected(algorithm of Dijkstra)
+ \IF{connected}
+	\STATE Graph\_connected = true
+\ENDIF
+\ENDWHILE
+\STATE Explore all feasible paths for each node to the sink
+\end{algorithmic}
+%\caption{Networks generator algorithm}
+\end{algorithm}
 
 \section{Implementation of networks}
 
-\hspace{0.6cm}In this section, we will test the networks, generated in a network implementation tool (OMNET++) to visualize and evaluate the convergence of the distributed algorithm designed to maximize the lifetime of implemented WVSN network.
+\hspace{0.6cm}In this section, we test the network, generated in a network implementation tool (OMNET++) to visualize and evaluate the convergence of the distributed algorithm designed to maximize the lifetime of implemented WVSN network.
 
-Networks are tested in synchronous mode, and then asynchronously. We collect the primal variables that characterize a WVSN network after 400 iterations, and finally an analysis is made of these results:
+Networks are tested in synchronous mode, and next asynchronously. We collect the primal variables that characterize a WVSN network after 400 iterations, and finally an analysis is made of these results:
 
 \subsection{Synchronous mode }
 
-\hspace{0.6cm}Synchronous mode consists of ensuring that each node makes as much iterations as the others in the same given time.  This is done when a given node increments the number of iterations when receiving acknowledgment messages from all its neighbors when they meet a Message already sent before.
+\hspace{0.6cm}Synchronous mode consists of ensuring that each node makes as much iterations as the others in the same given time.  This is done when a given node increments the number of iterations when receiving acknowledgment messages from all its neighbors.
 
 \subsection{Asynchronous mode}
 
-\hspace{0.6cm}In asynchronous mode each node can make a number of iterations that differs from another node after a given time.  Node increments the number of iterations when receiving acknowledgment messages from its neighbors, but not necessarily all of its neighbors for example 50% of them.
+\hspace{0.6cm}In asynchronous mode each node can make a number of iterations that differs from another node after a given time.  Node increments the number of iterations when receiving acknowledgment messages from its neighbors, but not necessarily all of its neighbors, for example 50 \% of them.
 
-\section{Analyses and results}
+\section{Results and Analyses}
 \subsection{Interpretation}
 
-\hspace{0.6cm}After testing a series of WVSN networks and based on the results obtained in our experiments, we noted that in some cases and in two modes: synchronous and asynchronous the auxiliary variables values (qi) in the nodes are almost close from each other as shown in fig1.a and fig1.b and in other cases these values are distant as in the fig2.a and fig2.b.
+\hspace{0.6cm}After testing a series of WVSN networks and based on the results obtained in our experiments, we noted that in some cases and in two modes: synchronous and asynchronous the values of the $q_i$ variables,$1\le i \le n$ in the nodes are almost the same as shown in fig1.a and fig1.b and in other cases these values are distant as in the fig2.a and fig2.b.
 
-Furthermore, we noted in Fig 1.a (Synchronous mode) that the variation after 400 iterations between the qi variables is 17.8% and with a 0.00169497 convergence threshold for the dual function. Similarly in Fig 1.b (asynchronous mode) and for the same network the variation of qi is 15.75% with a convergence threshold of 7.17109e-005 for the dual function.
+Furthermore, we noted in Fig 1.a (Synchronous mode) that the variation after 400 iterations between the qi variables is 17.8 \% and with a 0.00169497 convergence threshold for the dual function. Similarly in Fig 1.b (asynchronous mode) and for the same network the variation of $q_i$ is 15.75 \% with a convergence threshold of 7.17109e-005 for the dual function.
 
-On the other hand when the qi values are not near each other in some tests, and after 400 iterations (fig2.a, fig2.b) we noted that when applying the two synchronous and asynchronous modes, we almost got the same results, fig2.a: 38% variation between the qi values with 0.000430264 as convergence threshold for the dual function and fig2.b: 38.8% with 0.000229301.
-\vspace{0.8cm}
+On the other hand when the qi values are not near each other in some tests, and after 400 iterations (fig2.a, fig2.b) we noted that when applying the two synchronous and asynchronous modes, we almost got the same results, fig2.a: 38 \% variation between the  values with 0.000430264 as convergence threshold for the dual function and fig2.b: 38.8 \% with 0.000229301.
+
+
 %here we insert our figure
 \begin{figure}[ht]
 \centering
@@ -53,8 +77,6 @@ On the other hand when the qi values are not near each other in some tests, and 
 	\end{center}
 \caption{qi variations with the iterations(test1) }
 \end{figure}
-
-\vspace{0.8cm}
 
 \begin{figure}[ht]
 \centering

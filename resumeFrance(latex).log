@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.21)  22 APR 2015 10:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.21)  30 APR 2015 10:35
 entering extended mode
 **C:/Users/User/Documents/Latex(Fance)/resumeFrance(latex).tex
 (C:/Users/User/Documents/Latex(Fance)/resumeFrance(latex).tex
@@ -30,13 +30,41 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count87
+\float@exts=\toks14
+\float@box=\box26
+\@float@everytoks=\toks15
+\@floatcapt=\box27
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks16
+\c@algorithm=\count88
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks17
 )
+\c@ALC@unique=\count89
+\c@ALC@line=\count90
+\c@ALC@rem=\count91
+\c@ALC@depth=\count92
+\ALC@tlm=\skip43
+\algorithmicindent=\skip44
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
@@ -48,9 +76,9 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count87
-\Gm@cntv=\count88
-\c@Gm@tempcnt=\count89
+\Gm@cnth=\count93
+\Gm@cntv=\count94
+\c@Gm@tempcnt=\count95
 \Gm@bindingoffset=\dimen103
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
@@ -59,7 +87,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen108
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
-\Gm@dimlist=\toks15
+\Gm@dimlist=\toks18
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
@@ -85,18 +113,10 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count90
+\Gread@gobject=\count96
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count91
-\float@exts=\toks16
-\float@box=\box26
-\@float@everytoks=\toks17
-\@floatcapt=\box27
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
@@ -115,29 +135,29 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen118
 \caption@hangindent=\dimen119
 )
-\c@ContinuedFloat=\count92
+\c@ContinuedFloat=\count97
 Package caption Info: float package is loaded.
 )
-\c@subfigure=\count93
-\c@subtable=\count94
+\c@subfigure=\count98
+\c@subtable=\count99
 )
 
 LaTeX Warning: Unused global option(s):
     [a4].
 
 (C:\Users\User\Documents\Latex(Fance)\resumeFrance(latex).aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -175,83 +195,86 @@ LaTeX Font Info:    ... okay on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count95
+\scratchcounter=\count100
 \scratchdimen=\dimen120
 \scratchbox=\box28
-\nofMPsegments=\count96
-\nofMParguments=\count97
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count98
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count103
 \MPscratchDim=\dimen121
-\MPnumerator=\count99
-\makeMPintoPDFobject=\count100
-\everyMPtoPDFconversion=\toks19
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks20
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 10.
+(Font)              <14.4> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 10.
+(Font)              <7> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<C:/Users/User/Desktop/Capture1.jpg, id=8, 284.56313pt x 173.14688pt>
+<C:/Users/User/Desktop/Capture1.jpg, id=10, 284.56313pt x 173.14688pt>
 File: C:/Users/User/Desktop/Capture1.jpg Graphic file (type jpg)
 
 <use C:/Users/User/Desktop/Capture1.jpg>
 Package pdftex.def Info: C:/Users/User/Desktop/Capture1.jpg used on input line 
-44.
+68.
 (pdftex.def)             Requested size: 170.73918pt x 103.88892pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 46.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 46.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 46.
 
-<C:/Users/User/Desktop/Capture2.jpg, id=9, 279.29344pt x 173.14688pt>
+<C:/Users/User/Desktop/Capture2.jpg, id=11, 279.29344pt x 173.14688pt>
 File: C:/Users/User/Desktop/Capture2.jpg Graphic file (type jpg)
 
 <use C:/Users/User/Desktop/Capture2.jpg>
 Package pdftex.def Info: C:/Users/User/Desktop/Capture2.jpg used on input line 
-50.
+74.
 (pdftex.def)             Requested size: 167.57735pt x 103.88892pt.
 
-<C:/Users/User/Desktop/Capture3.jpg, id=10, 285.31593pt x 176.15813pt>
+<C:/Users/User/Desktop/Capture3.jpg, id=12, 285.31593pt x 176.15813pt>
 File: C:/Users/User/Desktop/Capture3.jpg Graphic file (type jpg)
 
 <use C:/Users/User/Desktop/Capture3.jpg>
 Package pdftex.def Info: C:/Users/User/Desktop/Capture3.jpg used on input line 
-63.
+85.
 (pdftex.def)             Requested size: 171.19087pt x 105.69568pt.
 
-<C:/Users/User/Desktop/Capture4.jpg, id=11, 285.31593pt x 175.40532pt>
+<C:/Users/User/Desktop/Capture4.jpg, id=13, 285.31593pt x 175.40532pt>
 File: C:/Users/User/Desktop/Capture4.jpg Graphic file (type jpg)
 
 <use C:/Users/User/Desktop/Capture4.jpg>
 Package pdftex.def Info: C:/Users/User/Desktop/Capture4.jpg used on input line 
-69.
+91.
 (pdftex.def)             Requested size: 171.19087pt x 105.24399pt.
- [2 <C:/Users/User/Desktop/Capture1.jpg> <C:/Users/User/Desktop/Capture2.jpg> <
-C:/Users/User/Desktop/Capture3.jpg> <C:/Users/User/Desktop/Capture4.jpg>] [3]
+ [2] [3 <C:/Users/User/Desktop/Capture1.jpg> <C:/Users/User/Desktop/Capture2.jp
+g> <C:/Users/User/Desktop/Capture3.jpg> <C:/Users/User/Desktop/Capture4.jpg>]
 (C:\Users\User\Documents\Latex(Fance)\resumeFrance(latex).aux) ) 
 Here is how much of TeX's memory you used:
- 2803 strings out of 493921
- 43536 string characters out of 3147285
- 106193 words of memory out of 3000000
- 6105 multiletter control sequences out of 15000+200000
- 8801 words of font info for 31 fonts, out of 3000000 for 9000
+ 3028 strings out of 493921
+ 46284 string characters out of 3147285
+ 111263 words of memory out of 3000000
+ 6320 multiletter control sequences out of 15000+200000
+ 9108 words of font info for 32 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,9n,40p,518b,487s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,8n,40p,544b,553s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr17.pfb>
-Output written on resumeFrance(latex).pdf (3 pages, 149326 bytes).
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb>
+Output written on resumeFrance(latex).pdf (3 pages, 177004 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
+ 44 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
